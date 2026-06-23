@@ -15,13 +15,13 @@ Zurich Scout is an agentic target-customer scouting workflow for Zurich Insuranc
 
 The demo starts with the business result: 70 public targets were converted into 18 Zurich-ready pursuit candidates, 304 public buyer paths, and 0 artifact validation issues.
 
-![Zurich Scout demo overview](public/readme-assets/demo-tab.png)
+![Zurich Scout demo overview](deliverables/challenge3-target-customer-scouting/readme-assets/demo-tab.png)
 
 ### Pursuit Queue
 
 The pursuit queue shows each target's recommendation, Zurich alignment score, buyer count, likely entry lines of business, current broker status, and next Zurich validation action.
 
-![Zurich Scout pursuit queue](public/readme-assets/output-tab.png)
+![Zurich Scout pursuit queue](deliverables/challenge3-target-customer-scouting/readme-assets/output-tab.png)
 
 The current broker is intentionally shown as "Not publicly identified" unless Zurich internal data confirms it. Zurich Scout's job is to route the account into the right internal validation gate: CRM status, broker owner, incumbent carrier, renewal timing, loss history, and relationship owner.
 
@@ -29,7 +29,7 @@ The current broker is intentionally shown as "Not publicly identified" unless Zu
 
 Buyer paths are public, business-safe routing hypotheses. They are not claims that the listed people are confirmed insurance buyers.
 
-![Zurich Scout buyer paths](public/readme-assets/buyer-paths-tab.png)
+![Zurich Scout buyer paths](deliverables/challenge3-target-customer-scouting/readme-assets/buyer-paths-tab.png)
 
 ## What We Built
 
