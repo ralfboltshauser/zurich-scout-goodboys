@@ -24,7 +24,7 @@ What they likely optimize for:
    Fix: use the defensible focus math: 70 accounts became 18 validation candidates; 52 lower-readiness accounts avoided; 26-52 SME hours redirected.
 
 4. **Technical credibility can drown in workflow detail.**  
-   Fix: show a simple staged architecture and validation result, then put deep details in the proof pack.
+   Fix: show a simple gated architecture and validation result, then put deep details in the proof pack.
 
 5. **The brand could imply an official Zurich product.**  
    Fix: use "Zurich Scout" as a prototype product mark by Good Boys, not as Zurich corporate identity.
@@ -73,7 +73,7 @@ Message: Generic AI can research companies. Zurich wins when public signals meet
 
 ### Technical Summary - Architecture And Controls
 
-Headline: Staged agent workflow, structured output, validation gates.
+Headline: Gated agent workflow, structured output, validation checks.
 
 Core content:
 
@@ -83,4 +83,3 @@ Core content:
 - Controls: public sources, negative evidence, unknowns, no autonomous outreach, Zurich clearance before action.
 
 Message: The system is auditable and conservative by design.
-

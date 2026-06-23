@@ -125,7 +125,7 @@ text_at "$slide3" 1580 72 31 "$NAVY" Helvetica-Bold "Generic AI can research com
 tech="$OUT/zurich-scout-technical-summary.png"
 base "$tech"
 text_at "$tech" 1280 72 48 "$TEXT" Helvetica-Bold "Technical Summary" 96 142 "t-title"
-text_at "$tech" 1540 58 28 "$TEXT" Helvetica "Staged agent workflow, structured output, validation gates." 96 222 "t-lead"
+text_at "$tech" 1540 58 28 "$TEXT" Helvetica "Gated agent workflow, structured output, validation checks." 96 222 "t-lead"
 labels=("Define ICP" "Source" "Triage" "Deep research" "Quality panel" "Buyer map" "Pursuit brief")
 x=100
 for i in "${!labels[@]}"; do

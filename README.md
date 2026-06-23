@@ -37,7 +37,7 @@ Zurich Scout has three connected tracks:
 
 | Track | Purpose | Location |
 | --- | --- | --- |
-| Smithers workflow | Staged agent workflow for ICP definition, sourcing, triage, account research, quality review, buyer mapping, and pursuit brief assembly | `.smithers/workflows/challenge3-target-scout.tsx` |
+| Smithers workflow | Gated agent workflow for ICP definition, sourcing, triage, account research, quality review, buyer mapping, and pursuit brief assembly | `.smithers/workflows/challenge3-target-scout.tsx` |
 | Workflow visualizer | Local React/Express demo app for the recorded walkthrough | `workflow-visualizer/` |
 | Submission evidence | Decks, transcript, proof pack, generated artifact, screenshots, and validators | `deliverables/challenge3-target-customer-scouting/` |
 
@@ -62,7 +62,7 @@ The case is not solved by finding more company names. Zurich already has relatio
 
 That led to three design choices.
 
-First, target scouting is treated as a staged workflow. Cheap broad triage happens before expensive deep research and buyer mapping.
+First, target scouting runs through explicit qualification gates. Cheap broad triage happens before expensive deep research and buyer mapping.
 
 Second, every pursue result is framed as an internal validation candidate, not a quote-ready lead. Zurich must still check broker-of-record, incumbent status, renewal timing, quote history, loss history, and account ownership.
 
@@ -101,7 +101,7 @@ flowchart LR
 ```text
 zurich-scout-goodboys/
   .smithers/
-    workflows/challenge3-target-scout.tsx      # Core staged workflow
+    workflows/challenge3-target-scout.tsx      # Core gated workflow
     scripts/                                   # Repair and validation helpers
     data/challenge3-fdic-seeds.json            # Pilot seed universe
   deliverables/

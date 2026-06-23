@@ -146,7 +146,7 @@ AI review agent:
    - Save visible proof of work for the jury: call notes, screenshots/photos of calls if permitted, timestamped interview notes, and the scoring sheet.
 
 6. Live "Zurich validation overlay" demo.
-   - Add a fake but realistic internal-data overlay screen:
+   - Add an internal-data overlay screen with connector-ready fields:
      - CRM match: unknown / existing insured / prior quote / declined.
      - Broker owner: unknown / Aon / Marsh / Gallagher / regional broker.
      - Renewal window: unknown / within 90 days / outside 12 months.

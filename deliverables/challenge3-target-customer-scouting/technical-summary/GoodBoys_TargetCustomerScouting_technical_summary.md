@@ -6,7 +6,7 @@ Zurich Scout is an agentic target-scouting workflow for Zurich's Challenge 3: Ta
 
 The prototype was run on a focused pilot vertical: US middle-market financial institutions. This was chosen because Zurich provided Financial Institutions appetite material, the vertical has clear multiline insurance relevance, and public evidence is available for account-level validation.
 
-Scope boundary: this is an FDIC Financial Institutions pilot. It is not the full Zurich D&B 30,000-company run. The next production pilot should run the same staged workflow against the D&B universe and Zurich internal overlays.
+Scope boundary: this is an FDIC Financial Institutions pilot. It is not the full Zurich D&B 30,000-company run. The next production pilot should run the same gated workflow against the D&B universe and Zurich internal overlays.
 
 ## What We Built
 
@@ -117,7 +117,7 @@ It runs these components:
 
 ## Implementation Approach
 
-The implementation uses a staged "wide then deep" pattern:
+The implementation uses a gated "wide then deep" pattern:
 
 1. Read the challenge and appetite materials to define the target customer profile.
 2. Build a candidate universe from external sources.
@@ -332,7 +332,7 @@ The relevant local prototype artifacts are:
 
 ## Cost And Scale Considerations
 
-The expensive operation is deep account and buyer research. The production design should control cost with staged processing:
+The expensive operation is deep account and buyer research. The production design should control cost with qualification-gated processing:
 
 1. Run cheap triage over the full D&B 30,000-company universe.
 2. Deep-research only the highest-fit subset.
@@ -344,12 +344,12 @@ Indicative running-cost model:
 
 | Scale | Recommended mode | Expected cost profile |
 | --- | --- | --- |
-| 100 accounts | Full staged run with deep research on top subset | Moderate; suitable for SME pilot |
+| 100 accounts | Full gated run with deep research on top subset | Moderate; suitable for SME pilot |
 | 30,000 D&B accounts | Cheap deterministic triage first; deep research only top 500 | Token-lean at first pass, token-heavy only for finalists |
 | Top 100 accounts | Full account briefs plus buyer-path enrichment | Highest value/cost zone |
 | Top 25 accounts | Zurich SME review and CRM/broker overlay | Human time dominates model cost |
 
-The intended cost control is precision staging: do not run expensive buyer enrichment on every D&B record.
+The intended cost control is precision gating: do not run expensive buyer enrichment on every D&B record.
 
 ## Known Risks
 
@@ -361,7 +361,7 @@ The intended cost control is precision staging: do not run expensive buyer enric
 | Appetite cannot be fully proven from public data. | Separate public appetite hypothesis from underwriting decision. |
 | Automated outreach could damage relationships. | Keep output as account-review and broker-conversation support, not autonomous outreach. |
 | Public buyer paths may miss real broker-led influence. | Treat buyer paths as hypotheses and overlay Zurich broker and relationship data before activation. |
-| Large-scale runs can become token-heavy if every account receives deep research. | Use staged triage, caching, and Zurich internal gates before expensive enrichment. |
+| Large-scale runs can become token-heavy if every account receives deep research. | Use qualification triage, caching, and Zurich internal gates before expensive enrichment. |
 | Personal-data misuse in buyer enrichment. | Use public business-safe profiles only; no private email inference, scraping, or autonomous personal outreach. |
 | Workflow drift after code changes. | Store workflow hash, schema hash, run ID, input payload, and validator output with each submission run. |
 

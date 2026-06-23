@@ -218,7 +218,7 @@ Demo-stability rule:
   - Open `latest.md`.
   - Open terminal validation output.
   - Show one pursue, one watch, one reject.
-  - Show internal-overlay mock if implemented.
+  - Show internal-overlay connector fields if implemented.
 
 ## Agent Workflow
 
@@ -378,7 +378,7 @@ Suggested production-scale pattern:
 - Top 100: buyer/distribution mapping.
 - Top 25: Zurich SME review.
 - Refresh cadence: monthly for high-priority watch accounts, quarterly for the wider universe, event-triggered for M&A/leadership/regulatory signals.
-- Cost reporting: estimate per 100 accounts, then extrapolate to 30,000 with staged filtering rather than deep-researching all accounts.
+- Cost reporting: estimate per 100 accounts, then extrapolate to 30,000 with qualification filtering rather than deep-researching all accounts.
 
 ## Known Risks
 
@@ -391,7 +391,7 @@ Suggested production-scale pattern:
 
 ## Out-Of-The-Box Technical Enhancements
 
-- Add an "internal Zurich overlay adapter" with mocked fields now and real connectors later:
+- Add an "internal Zurich overlay adapter" with connector-ready fields now and real connectors later:
   - Existing customer match.
   - Prior quote/lost opportunity.
   - Broker of record.

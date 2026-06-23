@@ -403,7 +403,7 @@ export function App() {
           <article className="demo-card demo-card--primary">
             <span className="demo-step">01</span>
             <h3>Run the qualification agent</h3>
-            <p>Smithers executes the staged workflow instead of producing a one-shot AI answer.</p>
+            <p>Smithers executes the gated qualification workflow instead of producing a one-shot AI answer.</p>
             <button className="demo-link" onClick={() => setActiveTab("live")}>Open workflow</button>
           </article>
 

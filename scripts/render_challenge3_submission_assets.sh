@@ -541,7 +541,7 @@ official_canvas "$tech_png"
 official_header "$tech_png"
 caption 1060 74 48 "$DARK" Helvetica-Bold "Technical Architecture" "$TMP_DIR/tech-title.png"
 caption 1500 70 26 "$DARK" Helvetica \
-  "Zurich Scout is a staged, auditable research workflow: wide candidate triage first, deep account and buyer research second, Zurich validation gates before any activation." "$TMP_DIR/tech-lead.png"
+  "Zurich Scout is a gated, auditable research workflow: wide candidate triage first, deep account and buyer research second, Zurich validation gates before any activation." "$TMP_DIR/tech-lead.png"
 compose_text "$tech_png" "$TMP_DIR/tech-title.png" 96 150
 compose_text "$tech_png" "$TMP_DIR/tech-lead.png" 96 238
 diagram_box "$tech_png" 120 370 300 122 "Inputs" "Challenge brief, AMA notes, FI appetite, public evidence."

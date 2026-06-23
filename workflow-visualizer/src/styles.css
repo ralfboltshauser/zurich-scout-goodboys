@@ -927,7 +927,7 @@ h1 {
   }
 }
 
-/* Dream UI pass: calmer command-center layout inspired by generated mockup. */
+/* Dream UI pass: calmer command-center layout inspired by the visual concept. */
 .mission-strip {
   grid-template-columns: minmax(0, 460px) minmax(0, 1fr);
   padding: 16px 18px;

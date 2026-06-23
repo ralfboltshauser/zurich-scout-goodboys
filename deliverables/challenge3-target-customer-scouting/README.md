@@ -20,7 +20,7 @@ The MP4 is intentionally hosted externally because it is larger than GitHub's no
 
 ## What We Built
 
-Zurich Scout runs a staged Smithers workflow:
+Zurich Scout runs a gated Smithers workflow:
 
 1. Define Zurich ICP and disqualifiers.
 2. Source candidate accounts.
