@@ -2,7 +2,7 @@
 
 ## Critique Lens
 
-Evaluator: Zurich business and technical hackathon reviewers deciding whether this is a credible, valuable Challenge 3 solution.
+Evaluator: Zurich business and technical hackathon stakeholders deciding whether this is a credible, valuable Challenge 3 solution.
 
 What they likely optimize for:
 

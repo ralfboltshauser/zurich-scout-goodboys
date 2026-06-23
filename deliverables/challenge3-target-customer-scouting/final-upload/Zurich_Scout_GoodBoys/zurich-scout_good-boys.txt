@@ -15,7 +15,7 @@ And then from there, we research the people deeply, qualify them as well, and fi
 
 This will take a while, so I am going here to the output already of the last round that we have done.
 
-What you can see here are lots of accounts that we have identified, the recommendation that we found for them, the alignment on how well they align with Zurich Insurance, how many buyers we found in this account, and the prime entry lines of business that we could contact.
+The output shows the identified accounts, their recommendations, Zurich alignment, buyer counts, and prime entry lines of business.
 
 As soon as we click on the accounts, we can see here in the bottom the different people, what we found during research and qualification about those people, and how we could reach them.
 

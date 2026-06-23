@@ -7,9 +7,9 @@ Solution: Zurich Scout
 
 Zurich Scout is an agentic customer-scouting workflow for Zurich. It turns a broad white-space target universe into a broker-safe action queue: pursue, watch, or reject. The core idea is not "more leads." The core idea is better pursuit decisions before scarce distribution and underwriting time is spent.
 
-## Reviewer Path
+## Submission Path
 
-1. Watch the walkthrough: [zurich-scout_good-boys.mp4](https://exploration.nbg1.your-objectstorage.com/zurich-scout_good-boys.mp4)
+1. Walkthrough video: [zurich-scout_good-boys.mp4](https://exploration.nbg1.your-objectstorage.com/zurich-scout_good-boys.mp4)
 2. Read the one-page summary: [`deck/GoodBoys_TargetCustomerScouting_executive_summary.pdf`](deck/GoodBoys_TargetCustomerScouting_executive_summary.pdf)
 3. Review the 3-slide deck: [`deck/GoodBoys_TargetCustomerScouting_pitch_deck.pdf`](deck/GoodBoys_TargetCustomerScouting_pitch_deck.pdf)
 4. Check the technical one-pager: [`technical-summary/GoodBoys_TargetCustomerScouting_technical_summary.pdf`](technical-summary/GoodBoys_TargetCustomerScouting_technical_summary.pdf)

@@ -1,6 +1,6 @@
 # Final Metadata Checklist
 
-The submission content is complete. Before upload, fill in these user-owned fields.
+The submission content is complete. The submission content is complete. Remaining metadata is handled in the official upload form.
 
 ## Required User Metadata
 
@@ -11,8 +11,8 @@ The submission content is complete. Before upload, fill in these user-owned fiel
 
 | Field | Location |
 | --- | --- |
-| Team member names/emails | Official submission form |
-| GitHub repository URL | Official submission form / repository field |
+| Team member names/emails | Official upload form |
+| GitHub repository URL | Official upload form repository field |
 
 ## Already Complete
 

@@ -43,7 +43,7 @@ Present it as Zurich's explainable target-scouting operating system for middle-m
 - It supports broker-led execution instead of pretending direct cold outreach is enough.
 - It can be validated against Zurich's confidential CRM, quote, policy, broker, and loss-history data after submission.
 
-The emotional message: "We understood that your business is relationship-led, not just data-led. Our agent helps your distribution and underwriting teams decide where to spend their next hour."
+The emotional message: Zurich Scout is built for a relationship-led business, not just a data-led one. The agent helps Zurich distribution and underwriting teams decide where to spend the next hour.
 
 Use this as the core submission sentence:
 
@@ -66,7 +66,7 @@ Applied principles:
 
 ## Value Case To Make Rational
 
-Avoid unprovable revenue claims. Use scenario math a Zurich business reviewer can sanity-check:
+Avoid unprovable revenue claims. Use scenario math a Zurich business stakeholder can sanity-check:
 
 - The validated run reduced 70 public FI accounts into 18 pursue, 50 watch, and 2 reject.
 - If a distribution or underwriting expert spends 30-60 minutes on a first-pass screen, deferring or suppressing 52 lower-readiness accounts redirects about 26-52 expert hours to better candidates.
@@ -83,7 +83,7 @@ Pilot value hypothesis:
 
 ## What Zurich Reviewers Are Likely To Like
 
-Business reviewer:
+Business evaluation perspective:
 
 - Explicit alignment to Andy and Ashley's AMA guidance.
 - Revenue upside framed as new middle-market opportunities, not technology novelty.
@@ -93,7 +93,7 @@ Business reviewer:
 - A path to use the output inside real Zurich workflows.
 - A named handoff artifact: the final output should become a Zurich account review memo, broker conversation brief, CRM task, or underwriting pre-clearance packet.
 
-Technical reviewer:
+Technical evaluation perspective:
 
 - A real, reproducible workflow, not a manually written report.
 - Source-linked evidence and transparent scoring.
@@ -170,7 +170,7 @@ Generic AI can research public accounts. Zurich can win because it has proprieta
 - Appetite exceptions and underwriter notes.
 - Territory ownership and account conflict rules.
 
-The prototype should show that public AI research becomes defensible when combined with Zurich's confidential operating data. That is the moat and the reason this belongs inside Zurich, not as a generic lead vendor.
+The prototype shows that public AI research becomes defensible when combined with Zurich's confidential operating data. That is the moat and the reason this belongs inside Zurich, not as a generic lead vendor.
 
 ## Do-Not-Overclaim Rules
 
@@ -187,7 +187,7 @@ The prototype should show that public AI research becomes defensible when combin
 - Run the validation command immediately before final packaging.
 - Record the video against a clean deterministic demo state.
 - Rehearse the pitch/video script at least 5 times.
-- Keep a 10-15 minute hard buffer before upload; do not let unfinished polishing break the submission.
+- Maintain a final packaging buffer so polishing does not compromise the submission.
 
 ## Submission Naming
 

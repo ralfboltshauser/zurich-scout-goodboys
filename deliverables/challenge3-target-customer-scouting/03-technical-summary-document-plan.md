@@ -398,7 +398,7 @@ Suggested production-scale pattern:
   - Renewal date.
   - Claim/loss signals.
   - Appetite authority threshold.
-- Add a reviewer UI where an underwriter can accept/reject recommendation rationales.
+- Add a stakeholder UI where an underwriter can accept/reject recommendation rationales.
 - Add eval labels from Zurich SMEs and retrain/recalibrate scoring.
 - Add CRM export format so outputs can become tasks, notes, or opportunity records.
 - Add a "why not pursue" explanation to prevent sales pressure from overriding weak evidence.

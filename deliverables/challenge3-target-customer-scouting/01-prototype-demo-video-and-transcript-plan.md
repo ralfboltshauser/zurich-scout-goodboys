@@ -99,8 +99,8 @@ The demo then follows Maya from noisy account universe to account review memo.
 
 - The demo should feel like a sales and underwriting command center, not a spreadsheet.
 - The strongest moment is "gate before outreach" because it shows respect for Zurich's real operating model.
-- The reviewer should feel: "This team understands our business, not just AI."
-- The reviewer should emotionally want Maya to have this tool on Monday morning.
+- The stakeholder should feel: "This team understands our business, not just AI."
+- The stakeholder should emotionally want Maya to have this tool on Monday morning.
 
 ## Technical Proof To Show
 

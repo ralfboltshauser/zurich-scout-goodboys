@@ -87,6 +87,6 @@ A strong case 3 prototype should include:
 - Public data is useful, but final validation requires internal Zurich data.
 - The Russell 3000 is already relatively covered; the opportunity is broader white space, especially from D&B/private-company data and other external sources.
 - Broker relationships are central to execution.
-- The model must be explainable enough for Zurich to judge why a company is or is not in appetite.
+- The model must be explainable enough for Zurich to assess why a company is or is not in appetite.
 - A useful output is an actionable prospect brief, not just a ranked list.
 

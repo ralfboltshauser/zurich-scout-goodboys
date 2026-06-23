@@ -5,8 +5,8 @@
 | Team | Good Boys |
 | Selected use case | `CI_Customer_Scouting_GoodBoys` - Target Customer Scouting |
 | Product name | Zurich Scout |
-| Team members | Provided in submission form |
-| GitHub repository | Provided in submission form / final repository field |
+| Team members | Final team metadata |
+| GitHub repository | Final repository field |
 
 ## Executive Message
 

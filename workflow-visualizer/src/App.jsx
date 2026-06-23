@@ -374,7 +374,7 @@ export function App() {
       {activeTab === "demo" ? (
         <section className="demo-board">
           <article className="demo-lead">
-            <span className="section-kicker">What to show first</span>
+            <span className="section-kicker">Demo overview</span>
             <h2>From 70 public targets to 18 Zurich-ready pursuits.</h2>
             <p>
               Zurich Scout does not create more raw leads. It creates a reviewable action queue with evidence, buyer
@@ -403,7 +403,7 @@ export function App() {
           <article className="demo-card demo-card--primary">
             <span className="demo-step">01</span>
             <h3>Run the qualification agent</h3>
-            <p>Show that Smithers executes the staged workflow instead of producing a one-shot AI answer.</p>
+            <p>Smithers executes the staged workflow instead of producing a one-shot AI answer.</p>
             <button className="demo-link" onClick={() => setActiveTab("live")}>Open workflow</button>
           </article>
 

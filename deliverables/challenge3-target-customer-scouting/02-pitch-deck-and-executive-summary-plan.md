@@ -13,7 +13,7 @@
 - Build the deck from the first hour, not at the end.
 - Every slide must have one key message that is written, visualized, and spoken.
 - Optimize for emotional buy-in first, then logical justification.
-- Assume reviewers are distracted and may understand the case less deeply than we do; take them on a simple journey.
+- Keep the story simple, concrete, and easy to follow.
 - Use real validation artifacts as unfair advantage: interview quotes, call notes, validation matrix, or screenshots/photos where appropriate.
 - Do not include a feature or technical detail unless it supports the pitch story.
 - Rehearse at least 5 times and time the talk to the exact cutoff.

@@ -136,7 +136,7 @@ The repo intentionally keeps the written work visible. These are the main report
 
 | Report family | What it contains | Location |
 | --- | --- | --- |
-| Submission strategy | Deliverable checklist, winning strategy, judge framing, and planning notes | [`deliverables/challenge3-target-customer-scouting/00-submission-checklist-and-winning-strategy.md`](deliverables/challenge3-target-customer-scouting/00-submission-checklist-and-winning-strategy.md) |
+| Submission strategy | Deliverable checklist, winning strategy, submission framing, and planning notes | [`deliverables/challenge3-target-customer-scouting/00-submission-checklist-and-winning-strategy.md`](deliverables/challenge3-target-customer-scouting/00-submission-checklist-and-winning-strategy.md) |
 | Video plan and transcript | Original demo plan, final transcript, storyboard backup, and MP4 recording note | [`deliverables/challenge3-target-customer-scouting/video/`](deliverables/challenge3-target-customer-scouting/video/) |
 | Deck and executive summary | Final PDFs, markdown backups, cover, rendered slide images, screenshots, and content critique | [`deliverables/challenge3-target-customer-scouting/deck/`](deliverables/challenge3-target-customer-scouting/deck/) and [`deliverables/challenge3-target-customer-scouting/imagegen-slides/`](deliverables/challenge3-target-customer-scouting/imagegen-slides/) |
 | Technical report | Visual one-pager plus detailed technical summary | [`deliverables/challenge3-target-customer-scouting/technical-summary/`](deliverables/challenge3-target-customer-scouting/technical-summary/) |

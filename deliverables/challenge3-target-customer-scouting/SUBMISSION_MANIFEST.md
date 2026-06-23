@@ -4,7 +4,7 @@ Use case: `CI_Customer_Scouting_GoodBoys`
 Challenge: Zurich Hyper Challenge 2026 - Challenge 3, Target Customer Scouting  
 Solution: Zurich Scout
 
-## Submit These Files
+## Submission Files
 
 | Deliverable | File |
 | --- | --- |
@@ -20,7 +20,7 @@ Solution: Zurich Scout
 | Human-readable generated artifact | [`prototype-evidence/latest.md`](prototype-evidence/latest.md) |
 | Validator | [`prototype-evidence/validate-submission-output.mjs`](prototype-evidence/validate-submission-output.mjs) |
 
-## Submission Form Fields
+## Submission Metadata
 
 - Team name: `Good Boys`
 - Solution name: `Zurich Scout`
