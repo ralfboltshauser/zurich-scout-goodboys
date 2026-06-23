@@ -1,0 +1,502 @@
+{
+  "generatedAt": "2026-06-09T13:58:30.038Z",
+  "source": "https://banks.data.fdic.gov/api/institutions?filters=ACTIVE%3A1+AND+ASSET%3A%5B1000000+TO+25000000%5D&fields=NAME%2CCITY%2CSTNAME%2CWEBADDR%2CASSET%2CSPECGRP%2COFFICES%2CID&sort_by=ASSET&sort_order=DESC&limit=100&format=json",
+  "seedCompanies": [
+    {
+      "name": "Rockland Trust Company",
+      "website": "http://www.rocklandtrust.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Rockland, Massachusetts. Assets: $24,788M. Offices: 152. FDIC specialty group: 4. FDIC certificate/ID: 9712."
+    },
+    {
+      "name": "Simmons Bank",
+      "website": "https://www.simmonsbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Pine Bluff, Arkansas. Assets: $24,649M. Offices: 230. FDIC specialty group: 4. FDIC certificate/ID: 3890."
+    },
+    {
+      "name": "First Hawaiian Bank",
+      "website": "https://www.fhb.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Honolulu, Hawaii. Assets: $24,267M. Offices: 49. FDIC specialty group: 4. FDIC certificate/ID: 17985."
+    },
+    {
+      "name": "Cathay Bank",
+      "website": "https://www.cathaybank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Los Angeles, California. Assets: $24,035M. Offices: 66. FDIC specialty group: 4. FDIC certificate/ID: 18503."
+    },
+    {
+      "name": "Bank of Hawaii",
+      "website": "https://www.boh.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Honolulu, Hawaii. Assets: $23,876M. Offices: 51. FDIC specialty group: 5. FDIC certificate/ID: 18053."
+    },
+    {
+      "name": "State Bank of India",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: New York, New York. Assets: $23,463M. Offices: 1. FDIC specialty group: 4. FDIC certificate/ID: 33682."
+    },
+    {
+      "name": "TriState Capital Bank",
+      "website": "http://www.tscbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Pittsburgh, Pennsylvania. Assets: $23,247M. Offices: 2. FDIC specialty group: 9. FDIC certificate/ID: 58457."
+    },
+    {
+      "name": "Centennial Bank",
+      "website": "http://www.my100bank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Conway, Arkansas. Assets: $23,029M. Offices: 242. FDIC specialty group: 4. FDIC certificate/ID: 11241."
+    },
+    {
+      "name": "First Financial Bank",
+      "website": "https://www.bankatfirst.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Cincinnati, Ohio. Assets: $22,687M. Offices: 165. FDIC specialty group: 4. FDIC certificate/ID: 6600."
+    },
+    {
+      "name": "TowneBank",
+      "website": "https://www.townebank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Portsmouth, Virginia. Assets: $22,359M. Offices: 93. FDIC specialty group: 4. FDIC certificate/ID: 35095."
+    },
+    {
+      "name": "Beacon Bank and Trust",
+      "website": "https://www.beaconbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Brookline, Massachusetts. Assets: $22,181M. Offices: 150. FDIC specialty group: 4. FDIC certificate/ID: 17798."
+    },
+    {
+      "name": "Wilmington Savings Fund Society, FSB",
+      "website": "https://www.wsfsbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Wilmington, Delaware. Assets: $22,017M. Offices: 95. FDIC specialty group: 4. FDIC certificate/ID: 17838."
+    },
+    {
+      "name": "Mechanics Bank",
+      "website": "https://www.mechanicsbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Walnut Creek, California. Assets: $21,404M. Offices: 170. FDIC specialty group: 4. FDIC certificate/ID: 1768."
+    },
+    {
+      "name": "Seacoast National Bank",
+      "website": "https://www.seacoastbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Stuart, Florida. Assets: $21,134M. Offices: 117. FDIC specialty group: 4. FDIC certificate/ID: 131."
+    },
+    {
+      "name": "First Merchants Bank",
+      "website": "http://www.firstmerchants.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Muncie, Indiana. Assets: $21,049M. Offices: 136. FDIC specialty group: 4. FDIC certificate/ID: 4365."
+    },
+    {
+      "name": "Optum Bank, Inc.",
+      "website": "https://www.optumbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Draper, Utah. Assets: $20,995M. Offices: 1. FDIC specialty group: 4. FDIC certificate/ID: 57408."
+    },
+    {
+      "name": "The Central Trust Bank",
+      "website": "https://www.centralbank.net",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Jefferson City, Missouri. Assets: $20,473M. Offices: 175. FDIC specialty group: 4. FDIC certificate/ID: 12633."
+    },
+    {
+      "name": "Merchants Bank of Indiana",
+      "website": "https://www.bankmerchants.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Carmel, Indiana. Assets: $20,263M. Offices: 8. FDIC specialty group: 4. FDIC certificate/ID: 8056."
+    },
+    {
+      "name": "Stifel Bank and Trust",
+      "website": "https://www.stifelbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Saint Louis, Missouri. Assets: $20,063M. Offices: 2. FDIC specialty group: 9. FDIC certificate/ID: 57311."
+    },
+    {
+      "name": "Apple Bank",
+      "website": "https://www.applebank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: New York, New York. Assets: $19,232M. Offices: 82. FDIC specialty group: 4. FDIC certificate/ID: 16068."
+    },
+    {
+      "name": "FirstBank Puerto Rico",
+      "website": "https://www.1firstbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Santurce, Puerto Rico. Assets: $19,071M. Offices: 74. FDIC specialty group: 4. FDIC certificate/ID: 30387."
+    },
+    {
+      "name": "Trustmark Bank",
+      "website": "https://www.trustmark.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Jackson, Mississippi. Assets: $18,985M. Offices: 182. FDIC specialty group: 4. FDIC certificate/ID: 4988."
+    },
+    {
+      "name": "Bank of Hope",
+      "website": "https://www.bankofhope.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Los Angeles, California. Assets: $18,652M. Offices: 79. FDIC specialty group: 4. FDIC certificate/ID: 26610."
+    },
+    {
+      "name": "ServisFirst Bank",
+      "website": "https://WWW.SERVISFIRSTBANK.COM",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Birmingham, Alabama. Assets: $18,170M. Offices: 34. FDIC specialty group: 4. FDIC certificate/ID: 57993."
+    },
+    {
+      "name": "Busey Bank",
+      "website": "https://www.busey.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Champaign, Illinois. Assets: $18,012M. Offices: 81. FDIC specialty group: 4. FDIC certificate/ID: 16450."
+    },
+    {
+      "name": "Third Federal Savings and Loan Association of Cleveland",
+      "website": "https://www.thirdfederal.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Cleveland, Ohio. Assets: $17,468M. Offices: 35. FDIC specialty group: 5. FDIC certificate/ID: 30012."
+    },
+    {
+      "name": "Community Bank, National Association",
+      "website": "https://www.cbna.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Canton, New York. Assets: $17,434M. Offices: 203. FDIC specialty group: 4. FDIC certificate/ID: 6989."
+    },
+    {
+      "name": "Enterprise Bank & Trust",
+      "website": "http://www.enterprisebank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Clayton, Missouri. Assets: $17,196M. Offices: 58. FDIC specialty group: 4. FDIC certificate/ID: 27237."
+    },
+    {
+      "name": "Northwest Bank",
+      "website": "https://WWW.NORTHWEST.COM",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Warren, Pennsylvania. Assets: $16,912M. Offices: 166. FDIC specialty group: 4. FDIC certificate/ID: 28178."
+    },
+    {
+      "name": "FirstBank",
+      "website": "https://www.firstbankonline.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Nashville, Tennessee. Assets: $16,433M. Offices: 133. FDIC specialty group: 4. FDIC certificate/ID: 8663."
+    },
+    {
+      "name": "First United Bank and Trust Company",
+      "website": "https://www.firstunitedbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Durant, Oklahoma. Assets: $16,404M. Offices: 85. FDIC specialty group: 4. FDIC certificate/ID: 4239."
+    },
+    {
+      "name": "Banner Bank",
+      "website": "https://www.bannerbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Walla Walla, Washington. Assets: $16,338M. Offices: 147. FDIC specialty group: 4. FDIC certificate/ID: 28489."
+    },
+    {
+      "name": "Toyota Financial Savings Bank",
+      "website": "https://www.toyotabank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Henderson, Nevada. Assets: $16,100M. Offices: 1. FDIC specialty group: 9. FDIC certificate/ID: 57542."
+    },
+    {
+      "name": "NBT Bank, National Association",
+      "website": "https://www.nbtbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Norwich, New York. Assets: $16,090M. Offices: 177. FDIC specialty group: 4. FDIC certificate/ID: 7230."
+    },
+    {
+      "name": "Bank of Baroda",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: New York, New York. Assets: $15,828M. Offices: 1. FDIC specialty group: 4. FDIC certificate/ID: 33681."
+    },
+    {
+      "name": "Nicolet National Bank",
+      "website": "https://www.nicoletbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Green Bay, Wisconsin. Assets: $15,548M. Offices: 119. FDIC specialty group: 4. FDIC certificate/ID: 57038."
+    },
+    {
+      "name": "Citizens Business Bank, National Association",
+      "website": "http://www.cbbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Ontario, California. Assets: $15,511M. Offices: 87. FDIC specialty group: 4. FDIC certificate/ID: 21716."
+    },
+    {
+      "name": "First Financial Bank",
+      "website": "https://www.ffin.com/",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Abilene, Texas. Assets: $15,318M. Offices: 83. FDIC specialty group: 4. FDIC certificate/ID: 3066."
+    },
+    {
+      "name": "Live Oak Banking Company",
+      "website": "https://www.liveoak.bank",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Wilmington, North Carolina. Assets: $15,230M. Offices: 1. FDIC specialty group: 4. FDIC certificate/ID: 58665."
+    },
+    {
+      "name": "Bank of America California, National Association",
+      "website": "https://www.bankofamerica.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: San Francisco, California. Assets: $15,126M. Offices: 1. FDIC specialty group: 5. FDIC certificate/ID: 25178."
+    },
+    {
+      "name": "Dime Commercial Bank",
+      "website": "https://www.dime.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Hauppauge, New York. Assets: $14,991M. Offices: 65. FDIC specialty group: 4. FDIC certificate/ID: 6976."
+    },
+    {
+      "name": "Popular Bank",
+      "website": "https://www.popularbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: New York, New York. Assets: $14,953M. Offices: 38. FDIC specialty group: 4. FDIC certificate/ID: 34967."
+    },
+    {
+      "name": "Bell Bank",
+      "website": "https://www.bell.bank",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Fargo, North Dakota. Assets: $14,816M. Offices: 34. FDIC specialty group: 4. FDIC certificate/ID: 19581."
+    },
+    {
+      "name": "OceanFirst Bank, National Association",
+      "website": "https://www.oceanfirst.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Toms River, New Jersey. Assets: $14,471M. Offices: 42. FDIC specialty group: 4. FDIC certificate/ID: 28359."
+    },
+    {
+      "name": "ConnectOne Bank",
+      "website": "https://www.connectonebank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Englewood Cliffs, New Jersey. Assets: $14,200M. Offices: 62. FDIC specialty group: 4. FDIC certificate/ID: 57919."
+    },
+    {
+      "name": "Israel Discount Bank of New York",
+      "website": "https://www.idbny.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: New York, New York. Assets: $13,987M. Offices: 8. FDIC specialty group: 4. FDIC certificate/ID: 19977."
+    },
+    {
+      "name": "NexBank",
+      "website": "https://www.nexbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Dallas, Texas. Assets: $13,443M. Offices: 3. FDIC specialty group: 5. FDIC certificate/ID: 29209."
+    },
+    {
+      "name": "Comenity Capital Bank",
+      "website": "https://Savings.Breadfinancial.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Draper, Utah. Assets: $13,311M. Offices: 1. FDIC specialty group: 3. FDIC certificate/ID: 57570."
+    },
+    {
+      "name": "Beal Bank USA",
+      "website": "https://www.bealbankUSA.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Las Vegas, Nevada. Assets: $13,026M. Offices: 11. FDIC specialty group: 4. FDIC certificate/ID: 57833."
+    },
+    {
+      "name": "BMW Bank of North America",
+      "website": "http://www.bmwusa.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Salt Lake City, Utah. Assets: $13,014M. Offices: 1. FDIC specialty group: 6. FDIC certificate/ID: 35141."
+    },
+    {
+      "name": "First Bank",
+      "website": "https://www.localfirstbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Southern Pines, North Carolina. Assets: $12,938M. Offices: 116. FDIC specialty group: 4. FDIC certificate/ID: 15019."
+    },
+    {
+      "name": "The Park National Bank",
+      "website": "https://www.parknationalbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Newark, Ohio. Assets: $12,926M. Offices: 113. FDIC specialty group: 4. FDIC certificate/ID: 6653."
+    },
+    {
+      "name": "BancFirst",
+      "website": "https://www.bancfirst.bank",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Oklahoma City, Oklahoma. Assets: $12,800M. Offices: 123. FDIC specialty group: 4. FDIC certificate/ID: 27476."
+    },
+    {
+      "name": "NBH Bank",
+      "website": "https://www.nbhbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Greenwood Village, Colorado. Assets: $12,565M. Offices: 107. FDIC specialty group: 4. FDIC certificate/ID: 59052."
+    },
+    {
+      "name": "Dollar Bank, Federal Savings Bank",
+      "website": "https://www.dollar.bank",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Pittsburgh, Pennsylvania. Assets: $12,480M. Offices: 91. FDIC specialty group: 4. FDIC certificate/ID: 32245."
+    },
+    {
+      "name": "PlainsCapital Bank",
+      "website": "https://www.plainscapital.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: University Park, Texas. Assets: $12,440M. Offices: 58. FDIC specialty group: 4. FDIC certificate/ID: 17491."
+    },
+    {
+      "name": "First Commonwealth Bank",
+      "website": "https://www.fcbanking.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Indiana, Pennsylvania. Assets: $12,233M. Offices: 129. FDIC specialty group: 4. FDIC certificate/ID: 7468."
+    },
+    {
+      "name": "Safra National Bank of New York",
+      "website": "https://www.safra.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: New York, New York. Assets: $12,155M. Offices: 6. FDIC specialty group: 9. FDIC certificate/ID: 26876."
+    },
+    {
+      "name": "Stifel Bank",
+      "website": "https://www.stifelbankstl.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Saint Louis, Missouri. Assets: $12,143M. Offices: 1. FDIC specialty group: 9. FDIC certificate/ID: 57358."
+    },
+    {
+      "name": "Oriental Bank",
+      "website": "http://www.orientalbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: San Juan, Puerto Rico. Assets: $11,966M. Offices: 45. FDIC specialty group: 4. FDIC certificate/ID: 31469."
+    },
+    {
+      "name": "Farmers and Merchants Bank of Long Beach",
+      "website": "https://www.fmb.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Long Beach, California. Assets: $11,857M. Offices: 27. FDIC specialty group: 4. FDIC certificate/ID: 1225."
+    },
+    {
+      "name": "LendingClub Bank, National Association",
+      "website": "https://www.lendingclub.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Lehi, Utah. Assets: $11,846M. Offices: 3. FDIC specialty group: 6. FDIC certificate/ID: 32551."
+    },
+    {
+      "name": "Columbia Bank",
+      "website": "https://www.columbiabankonline.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Fair Lawn, New Jersey. Assets: $11,009M. Offices: 69. FDIC specialty group: 4. FDIC certificate/ID: 28834."
+    },
+    {
+      "name": "Stellar Bank",
+      "website": "https://www.stellar.bank",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Houston, Texas. Assets: $10,889M. Offices: 52. FDIC specialty group: 4. FDIC certificate/ID: 58629."
+    },
+    {
+      "name": "Washington Trust Bank",
+      "website": "https://www.watrust.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Spokane, Washington. Assets: $10,700M. Offices: 45. FDIC specialty group: 4. FDIC certificate/ID: 1281."
+    },
+    {
+      "name": "Bank Hapoalim B.M.",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: New York, New York. Assets: $10,608M. Offices: 1. FDIC specialty group: 4. FDIC certificate/ID: 33686."
+    },
+    {
+      "name": "Charles Schwab Trust Bank",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Westlake, Texas. Assets: $10,420M. Offices: 1. FDIC specialty group: 5. FDIC certificate/ID: 59108."
+    },
+    {
+      "name": "Amarillo National Bank",
+      "website": "https://www.anb.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Amarillo, Texas. Assets: $10,226M. Offices: 35. FDIC specialty group: 4. FDIC certificate/ID: 14531."
+    },
+    {
+      "name": "Origin Bank",
+      "website": "https://www.origin.bank",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Choudrant, Louisiana. Assets: $10,093M. Offices: 58. FDIC specialty group: 4. FDIC certificate/ID: 12614."
+    },
+    {
+      "name": "Centier Bank",
+      "website": "https://www.centier.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Whiting, Indiana. Assets: $10,085M. Offices: 63. FDIC specialty group: 4. FDIC certificate/ID: 12854."
+    },
+    {
+      "name": "Tri Counties Bank",
+      "website": "https://www.tcbk.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Chico, California. Assets: $9,946M. Offices: 77. FDIC specialty group: 4. FDIC certificate/ID: 21943."
+    },
+    {
+      "name": "S&T Bank",
+      "website": "http://www.stbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Indiana, Pennsylvania. Assets: $9,940M. Offices: 76. FDIC specialty group: 4. FDIC certificate/ID: 11124."
+    },
+    {
+      "name": "EagleBank",
+      "website": "https://www.eaglebankcorp.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Bethesda, Maryland. Assets: $9,903M. Offices: 14. FDIC specialty group: 4. FDIC certificate/ID: 34742."
+    },
+    {
+      "name": "The Bancorp Bank, National Association",
+      "website": "https://www.thebancorp.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Sioux Falls, South Dakota. Assets: $9,900M. Offices: 1. FDIC specialty group: 4. FDIC certificate/ID: 35444."
+    },
+    {
+      "name": "International Bank of Commerce",
+      "website": "https://www.ibc.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Laredo, Texas. Assets: $9,893M. Offices: 81. FDIC specialty group: 4. FDIC certificate/ID: 19629."
+    },
+    {
+      "name": "Byline Bank",
+      "website": "https://www.bylinebank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Chicago, Illinois. Assets: $9,887M. Offices: 55. FDIC specialty group: 4. FDIC certificate/ID: 20624."
+    },
+    {
+      "name": "Amerant Bank, National Association",
+      "website": "https://www.amerantbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Coral Gables, Florida. Assets: $9,881M. Offices: 24. FDIC specialty group: 4. FDIC certificate/ID: 22953."
+    },
+    {
+      "name": "Capitol Federal Savings Bank",
+      "website": "https://www.capfed.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Topeka, Kansas. Assets: $9,843M. Offices: 46. FDIC specialty group: 5. FDIC certificate/ID: 27981."
+    },
+    {
+      "name": "Peoples Bank",
+      "website": "https://www.peoplesbancorp.com/",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Marietta, Ohio. Assets: $9,638M. Offices: 135. FDIC specialty group: 4. FDIC certificate/ID: 6544."
+    },
+    {
+      "name": "Principal Bank",
+      "website": "https://www.principal.com/bank",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Des Moines, Iowa. Assets: $9,605M. Offices: 1. FDIC specialty group: 5. FDIC certificate/ID: 34507."
+    },
+    {
+      "name": "WEX Bank",
+      "website": "https://www.wexinc.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Sandy, Utah. Assets: $9,526M. Offices: 1. FDIC specialty group: 4. FDIC certificate/ID: 34697."
+    },
+    {
+      "name": "Stock Yards Bank & Trust Company",
+      "website": "https://www.syb.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Louisville, Kentucky. Assets: $9,457M. Offices: 85. FDIC specialty group: 4. FDIC certificate/ID: 258."
+    },
+    {
+      "name": "Wintrust Bank, National Association",
+      "website": "https://www.wintrustbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Chicago, Illinois. Assets: $9,279M. Offices: 37. FDIC specialty group: 4. FDIC certificate/ID: 33935."
+    },
+    {
+      "name": "Union Bank and Trust Company",
+      "website": "https://www.ubt.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Lincoln, Nebraska. Assets: $9,189M. Offices: 37. FDIC specialty group: 4. FDIC certificate/ID: 13421."
+    },
+    {
+      "name": "Woodforest National Bank",
+      "website": "https://www.woodforest.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: The Woodlands, Texas. Assets: $9,178M. Offices: 744. FDIC specialty group: 4. FDIC certificate/ID: 23220."
+    },
+    {
+      "name": "Amalgamated Bank",
+      "website": "http://AMALGAMATEDBANK.COM",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: New York, New York. Assets: $9,168M. Offices: 6. FDIC specialty group: 4. FDIC certificate/ID: 622."
+    },
+    {
+      "name": "Pinnacle Bank",
+      "website": "https://www.pinnbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Lincoln, Nebraska. Assets: $9,115M. Offices: 72. FDIC specialty group: 4. FDIC certificate/ID: 10634."
+    },
+    {
+      "name": "1st Source Bank",
+      "website": "https://www.1stsource.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: South Bend, Indiana. Assets: $9,111M. Offices: 81. FDIC specialty group: 4. FDIC certificate/ID: 9087."
+    },
+    {
+      "name": "American Savings Bank, National Association",
+      "website": "https://www.asbhawaii.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Honolulu, Hawaii. Assets: $9,043M. Offices: 35. FDIC specialty group: 4. FDIC certificate/ID: 32526."
+    },
+    {
+      "name": "Wells Fargo National Bank West",
+      "website": "https://www.wellsfargo.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Las Vegas, Nevada. Assets: $9,030M. Offices: 1. FDIC specialty group: 5. FDIC certificate/ID: 27389."
+    },
+    {
+      "name": "Liberty Bank",
+      "website": "https://www.liberty-bank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Middletown, Connecticut. Assets: $9,017M. Offices: 51. FDIC specialty group: 4. FDIC certificate/ID: 17943."
+    },
+    {
+      "name": "Lake Forest Bank & Trust Company, National Association",
+      "website": "https://www.lakeforestbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Lake Forest, Illinois. Assets: $8,998M. Offices: 10. FDIC specialty group: 4. FDIC certificate/ID: 27589."
+    },
+    {
+      "name": "Merrick Bank",
+      "website": "http://www.merrickbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: South Jordan, Utah. Assets: $8,934M. Offices: 1. FDIC specialty group: 3. FDIC certificate/ID: 34519."
+    },
+    {
+      "name": "b1BANK",
+      "website": "https://www.b1bank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Baton Rouge, Louisiana. Assets: $8,903M. Offices: 63. FDIC specialty group: 4. FDIC certificate/ID: 58228."
+    },
+    {
+      "name": "Flushing Bank",
+      "website": "https://www.flushingbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Uniondale, New York. Assets: $8,861M. Offices: 30. FDIC specialty group: 4. FDIC certificate/ID: 58564."
+    },
+    {
+      "name": "Metropolitan Commercial Bank",
+      "website": "https://www.mcbankny.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: New York, New York. Assets: $8,843M. Offices: 10. FDIC specialty group: 4. FDIC certificate/ID: 34699."
+    },
+    {
+      "name": "Southside Bank",
+      "website": "https://www.southside.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Tyler, Texas. Assets: $8,798M. Offices: 58. FDIC specialty group: 4. FDIC certificate/ID: 18297."
+    },
+    {
+      "name": "RBC Bank, (Georgia) National Association",
+      "website": "https://www.rbcbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Atlanta, Georgia. Assets: $8,786M. Offices: 1. FDIC specialty group: 9. FDIC certificate/ID: 26342."
+    },
+    {
+      "name": "Cross River Bank",
+      "website": "http://www.crossriverbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Fort Lee, New Jersey. Assets: $8,709M. Offices: 2. FDIC specialty group: 9. FDIC certificate/ID: 58410."
+    },
+    {
+      "name": "Tompkins Community Bank",
+      "website": "https://www.tompkinsbank.com",
+      "notes": "FDIC active institution seed for Zurich Challenge 3. Headquarters: Ithaca, New York. Assets: $8,697M. Offices: 59. FDIC specialty group: 4. FDIC certificate/ID: 609."
+    }
+  ]
+}

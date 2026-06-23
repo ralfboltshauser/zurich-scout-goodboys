@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Zurich Agentic Commerce Pitch</title>
+    <link rel="stylesheet" href="/pitch.css" />
+  </head>
+  <body>
+    <main class="deck" id="deck">
+      <section class="slide title-slide" id="open" data-kicker="Opening">
+        <div class="slide-inner hero-grid">
+          <div>
+            <p class="kicker">Zurich · Agentic Commerce</p>
+            <h1>Dog insurance for the agentic era.</h1>
+          </div>
+          <div class="interface-stack" aria-label="Two demo interfaces">
+            <div class="interface-card video-card">
+              <span>Intro video</span>
+              <strong>Customer need</strong>
+              <small>Discover, compare, decide</small>
+            </div>
+            <div class="interface-card chat-card">
+              <span>ChatGPT app</span>
+              <strong>Agent to agent</strong>
+              <small>Consent-gated checkout</small>
+            </div>
+          </div>
+          <p class="say">
+            Say: We start with the two interfaces from the intro video: the video journey and the ChatGPT app. The challenge is dog insurance, but the real question is how Zurich sells when personal agents act for customers.
+          </p>
+        </div>
+      </section>
+
+      <section class="slide" id="challenge" data-kicker="Challenge">
+        <div class="slide-inner two-col">
+          <div>
+            <p class="kicker">Core challenge</p>
+            <h2>The brief is not another form.</h2>
+          </div>
+          <div class="statement-list">
+            <p>Zurich asked for an AI-native sales experience.</p>
+            <p>Customer agents and Zurich agents need to talk.</p>
+            <p class="sharp">The human still needs clarity and control.</p>
+          </div>
+          <p class="say">
+            Say: The goal is not to copy the existing Petolo funnel. It is to redesign consideration, quote, and bind for an agent-to-agent world.
+          </p>
+        </div>
+      </section>
+
+      <section class="slide" id="flow" data-kicker="User Flow">
+        <div class="slide-inner">
+          <p class="kicker">Customer flow</p>
+          <h2>Personal agent meets Zurich agent.</h2>
+          <div class="flow">
+            <div><span>01</span> Dog facts</div>
+            <div><span>02</span> Live quote</div>
+            <div><span>03</span> Trust capsule</div>
+            <div><span>04</span> Consent to bind</div>
+          </div>
+          <p class="say">
+            Say: A customer's personal agent sends dog and owner facts. Zurich resolves the inputs, prices tariffs live, explains the recommendation, and asks the human before any bind step.
+          </p>
+        </div>
+      </section>
+
+      <section class="slide" id="live-apis" data-kicker="Live APIs">
+        <div class="slide-inner two-col">
+          <div>
+            <p class="kicker">What is real</p>
+            <h2>We use the pet insurance APIs.</h2>
+          </div>
+          <div class="proof-grid">
+            <div><strong>Policies</strong><span>Official product facts.</span></div>
+            <div><strong>Breeds</strong><span>Dog data resolution.</span></div>
+            <div><strong>Prices</strong><span>Live tariff quotes.</span></div>
+            <div><strong>Leads</strong><span>Dry-run by default.</span></div>
+          </div>
+          <p class="say">
+            Say: This is not a mock calculator. We use the provided Petolo APIs for policies, breeds, prices, start dates, and lead preparation. Explanations are clearly separated from official facts.
+          </p>
+        </div>
+      </section>
+
+      <section class="slide" id="trust" data-kicker="Trust Capsule">
+        <div class="slide-inner">
+          <p class="kicker">Human in the loop</p>
+          <h2>The customer gets a one-screen decision.</h2>
+          <div class="split-lines">
+            <p>Price and tariff tradeoff.</p>
+            <p>Disclosures and exclusions.</p>
+            <p>Consent before action.</p>
+          </div>
+          <p class="say">
+            Say: The agent can understand insurance, but the customer still needs trust. The trust capsule turns the quote into plain language before the customer approves anything.
+          </p>
+        </div>
+      </section>
+
+      <section class="slide adapter-slide" id="adapter" data-kicker="Core Technology">
+        <div class="slide-inner">
+          <p class="kicker">The adapter</p>
+          <h2>One Zurich contract for any agent.</h2>
+          <div class="adapter-map" aria-label="Adapter architecture">
+            <div class="edge left">ChatGPT</div>
+            <div class="edge top">Customer agent</div>
+            <div class="core">Zurich<br />Adapter</div>
+            <div class="edge right">REST API</div>
+            <div class="edge bottom">Future agents</div>
+          </div>
+          <p class="say">
+            Say: The adapter is the strategic asset. It gives every customer agent the same machine-readable way to ask Zurich for product facts, quotes, explanations, and consent-gated binding.
+          </p>
+        </div>
+      </section>
+
+      <section class="slide" id="interfaces" data-kicker="What We Built">
+        <div class="slide-inner two-col">
+          <div>
+            <p class="kicker">Two implementations</p>
+            <h2>Built for the demo, testable by others.</h2>
+          </div>
+          <div class="proof-grid">
+            <div><strong>Video</strong><span>Shows the new journey.</span></div>
+            <div><strong>ChatGPT</strong><span>Shows the buying interface.</span></div>
+            <div><strong>REST/OpenAPI</strong><span>Cross-team test surface.</span></div>
+            <div><strong>Trust capsule</strong><span>Human approval artifact.</span></div>
+          </div>
+          <p class="say">
+            Say: The interfaces make the story visible, but the important part for the challenge is the REST and OpenAPI surface. Other agents can test against it.
+          </p>
+        </div>
+      </section>
+
+      <section class="slide security-slide" id="robustness" data-kicker="Robustness">
+        <div class="slide-inner">
+          <p class="kicker">Messy inputs</p>
+          <h2>The Zurich agent does not assume perfection.</h2>
+          <div class="impact-row">
+            <div><span>Mismatch</span>Photo and breed can disagree.</div>
+            <div><span>Missing</span>Required facts are requested.</div>
+            <div><span>Risk</span>Health disclosures trigger review.</div>
+          </div>
+          <p class="say">
+            Say: The AMA warned that test agents may send inconsistent or incomplete data. We handle mismatch, ambiguity, missing facts, budget pressure, and health disclosures.
+          </p>
+        </div>
+      </section>
+
+      <section class="slide" id="security" data-kicker="Consent">
+        <div class="slide-inner two-col">
+          <div>
+            <p class="kicker">Safe binding</p>
+            <h2>No consent, no lead.</h2>
+          </div>
+          <div class="agent-floor">
+            <div>Price</div>
+            <div>Documents</div>
+            <div>Data use</div>
+            <div>Health</div>
+            <div>Bind request</div>
+          </div>
+          <p class="say">
+            Say: Binding is dry-run by default. A real lead can only be created after explicit confirmation of price, documents, data use, and health disclosures.
+          </p>
+        </div>
+      </section>
+
+      <section class="slide final-slide" id="value" data-kicker="Business Value">
+        <div class="slide-inner">
+          <p class="kicker">Business value</p>
+          <h2>A reusable retail insurance gateway.</h2>
+          <div class="impact-row">
+            <div><span>Convert</span>Less friction from quote to bind.</div>
+            <div><span>Trust</span>Better customer understanding.</div>
+            <div><span>Scale</span>Dog insurance first, retail next.</div>
+          </div>
+          <p class="say">
+            Say: Dog insurance is the sandbox. The business value is a reusable agent-commerce gateway Zurich can extend to other retail products as personal agents become a real sales channel.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <nav class="rail" aria-label="Slides">
+      <button class="active" aria-label="Slide 1"></button>
+      <button aria-label="Slide 2"></button>
+      <button aria-label="Slide 3"></button>
+      <button aria-label="Slide 4"></button>
+      <button aria-label="Slide 5"></button>
+      <button aria-label="Slide 6"></button>
+      <button aria-label="Slide 7"></button>
+      <button aria-label="Slide 8"></button>
+      <button aria-label="Slide 9"></button>
+      <button aria-label="Slide 10"></button>
+    </nav>
+
+    <script>
+      const deck = document.querySelector("#deck");
+      const slides = [...document.querySelectorAll(".slide")];
+      const dots = [...document.querySelectorAll(".rail button")];
+      let index = 0;
+
+      function go(next, behavior = "smooth") {
+        index = Math.max(0, Math.min(slides.length - 1, next));
+        deck.scrollTo({ left: index * deck.clientWidth, behavior });
+        history.replaceState(null, "", `#${slides[index].id}`);
+        dots.forEach((dot, i) => dot.classList.toggle("active", i === index));
+      }
+
+      dots.forEach((dot, i) => dot.addEventListener("click", () => go(i)));
+      window.addEventListener("keydown", (event) => {
+        if (["ArrowRight", "PageDown", " "].includes(event.key)) {
+          event.preventDefault();
+          go(index + 1);
+        }
+        if (["ArrowLeft", "PageUp"].includes(event.key)) {
+          event.preventDefault();
+          go(index - 1);
+        }
+      });
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          const visible = entries.find((entry) => entry.isIntersecting);
+          if (!visible) return;
+          index = slides.indexOf(visible.target);
+          dots.forEach((dot, i) => dot.classList.toggle("active", i === index));
+        },
+        { root: deck, threshold: 0.62 }
+      );
+      slides.forEach((slide) => observer.observe(slide));
+
+      const initialHash = window.location.hash.slice(1);
+      const initialIndex = slides.findIndex((slide) => slide.id === initialHash);
+      if (initialIndex >= 0) requestAnimationFrame(() => go(initialIndex, "auto"));
+    </script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+.env.*
+*.mp4
+*.zip
+*.db
+*.db-shm
+*.db-wal
+tmp/
+coverage/
+.DS_Store

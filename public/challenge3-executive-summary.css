@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Aptos:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --blue: #003399;
+  --dark: #02296a;
+  --ink: #111827;
+  --muted: #5d6676;
+  --line: #d9e0ec;
+  --soft: #f6f8fb;
+  --red: #ff5252;
+  --green: #1b7f64;
+  --amber: #b98218;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  color: var(--ink);
+  background: #eef3fb;
+  font-family: Aptos, "Segoe UI", Frutiger, sans-serif;
+}
+
+.page {
+  width: min(1120px, calc(100vw - 40px));
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 42px 0;
+  display: grid;
+  gap: 28px;
+}
+
+.topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.brand img {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+}
+
+.brand strong {
+  display: block;
+  color: var(--dark);
+  font-size: 22px;
+  line-height: 1;
+}
+
+.brand span,
+.use-case,
+.eyebrow {
+  color: var(--blue);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero,
+.panel {
+  background:
+    linear-gradient(90deg, rgba(0, 51, 153, 0.055) 1px, transparent 1px) 0 0 / 64px 64px,
+    linear-gradient(180deg, rgba(0, 51, 153, 0.035) 1px, transparent 1px) 0 0 / 64px 64px,
+    white;
+  border: 1px solid var(--line);
+  box-shadow: 0 28px 70px rgba(2, 41, 106, 0.09);
+}
+
+.hero {
+  padding: 38px 42px 42px;
+}
+
+.eyebrow {
+  margin: 0 0 13px;
+}
+
+h1,
+h2 {
+  margin: 0;
+  color: var(--dark);
+  letter-spacing: 0;
+}
+
+h1 {
+  max-width: 960px;
+  font-size: 54px;
+  line-height: 0.96;
+  font-weight: 800;
+}
+
+.hero p:last-child {
+  max-width: 880px;
+  margin: 22px 0 0;
+  color: var(--muted);
+  font-size: 21px;
+  line-height: 1.3;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.panel {
+  min-height: 254px;
+  padding: 26px;
+}
+
+.panel h2 {
+  font-size: 31px;
+  line-height: 1.03;
+}
+
+.panel p,
+.panel li {
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.35;
+}
+
+.panel p {
+  margin: 14px 0 0;
+}
+
+ol {
+  margin: 18px 0 0;
+  padding-left: 20px;
+}
+
+li + li {
+  margin-top: 10px;
+}
+
+.solution {
+  border-top: 7px solid var(--blue);
+}
+
+.result {
+  border-top: 7px solid var(--green);
+}
+
+.value {
+  border-top: 7px solid var(--amber);
+}
+
+.next {
+  border-top: 7px solid var(--red);
+}
+
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  margin-top: 10px;
+  background: var(--line);
+}
+
+.metric-grid div {
+  min-height: 112px;
+  padding: 14px;
+  background: white;
+}
+
+.metric-grid strong {
+  display: block;
+  color: var(--dark);
+  font-size: 42px;
+  line-height: 0.9;
+}
+
+.metric-grid span {
+  display: block;
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+.proof {
+  font-weight: 700;
+  color: var(--dark) !important;
+}
+
+@page {
+  size: A4 landscape;
+  margin: 0;
+}
+
+@media print {
+  html,
+  body {
+    width: 11.69in;
+    height: 8.27in;
+    background: white;
+  }
+
+  .page {
+    width: 11.69in;
+    min-height: 8.27in;
+    padding: 0.38in 0.46in;
+    gap: 0.2in;
+  }
+
+  h1 {
+    font-size: 0.47in;
+  }
+
+  .hero {
+    padding: 0.27in 0.31in;
+  }
+
+  .hero p:last-child {
+    font-size: 0.18in;
+  }
+
+  .panel {
+    min-height: 2.06in;
+    padding: 0.2in;
+  }
+
+  .panel h2 {
+    font-size: 0.26in;
+  }
+
+  .panel p,
+  .panel li {
+    font-size: 0.145in;
+  }
+}
