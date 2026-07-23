@@ -1,0 +1,519 @@
+@import url("https://fonts.googleapis.com/css2?family=Aptos:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --zurich-blue: #003399;
+  --zurich-blue-dark: #02296a;
+  --sky: #eaf2ff;
+  --ink: #111827;
+  --muted: #5d6676;
+  --line: #d9e0ec;
+  --paper: #ffffff;
+  --soft: #f6f8fb;
+  --tan: #d5ceb5;
+  --red: #ff5252;
+  --green: #1b7f64;
+  --amber: #b98218;
+  --shadow: 0 28px 70px rgba(2, 41, 106, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+  background: #eef3fb;
+  color: var(--ink);
+  font-family: Aptos, "Segoe UI", Frutiger, sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.deck {
+  width: 100%;
+}
+
+.slide {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 38px 56px 34px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 26px;
+  overflow: hidden;
+  background:
+    linear-gradient(90deg, rgba(0, 51, 153, 0.055) 1px, transparent 1px) 0 0 / 72px 72px,
+    linear-gradient(180deg, rgba(0, 51, 153, 0.035) 1px, transparent 1px) 0 0 / 72px 72px,
+    var(--paper);
+  page-break-after: always;
+}
+
+.slide::after {
+  content: "";
+  position: absolute;
+  right: -18vw;
+  top: -26vw;
+  width: 54vw;
+  aspect-ratio: 1;
+  border: 58px solid rgba(0, 51, 153, 0.06);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.topline,
+.takeaway {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--zurich-blue-dark);
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
+.brand img {
+  width: 36px;
+  height: 36px;
+  border-radius: 9px;
+}
+
+.meta,
+.eyebrow,
+.stage span,
+.account-card span,
+.overlay-panel p,
+.future-row span,
+.takeaway strong {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.meta,
+.eyebrow {
+  color: var(--zurich-blue);
+}
+
+.slide-grid,
+.results-layout,
+.vision-layout {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1.02fr) minmax(420px, 0.98fr);
+  gap: 54px;
+  align-items: center;
+}
+
+.results-layout,
+.vision-layout {
+  align-items: start;
+}
+
+.hero-copy {
+  padding-bottom: 18px;
+}
+
+.eyebrow {
+  margin: 0 0 18px;
+}
+
+h1,
+h2 {
+  margin: 0;
+  color: var(--zurich-blue-dark);
+  font-weight: 800;
+  letter-spacing: 0;
+  text-wrap: balance;
+}
+
+h1 {
+  max-width: 720px;
+  font-size: clamp(68px, 7.1vw, 106px);
+  line-height: 0.92;
+}
+
+h2 {
+  max-width: 780px;
+  font-size: clamp(50px, 5vw, 78px);
+  line-height: 0.96;
+}
+
+.lead {
+  max-width: 690px;
+  margin: 28px 0 0;
+  color: var(--muted);
+  font-size: clamp(22px, 2vw, 31px);
+  line-height: 1.22;
+}
+
+.lead.compact {
+  max-width: 650px;
+  font-size: clamp(20px, 1.55vw, 25px);
+  line-height: 1.28;
+}
+
+.decision-stack {
+  display: grid;
+  gap: 14px;
+}
+
+.stage {
+  min-height: 138px;
+  padding: 24px 26px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: var(--shadow);
+}
+
+.stage span {
+  color: var(--zurich-blue);
+}
+
+.stage strong {
+  display: block;
+  margin-top: 15px;
+  color: var(--zurich-blue-dark);
+  font-size: 29px;
+  line-height: 1.05;
+}
+
+.stage small {
+  display: block;
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.35;
+}
+
+.stage.active {
+  border-color: rgba(0, 51, 153, 0.5);
+  background: var(--zurich-blue);
+}
+
+.stage.active span,
+.stage.active strong,
+.stage.active small {
+  color: white;
+}
+
+.stage.gated {
+  border-left: 8px solid var(--red);
+}
+
+.connector {
+  width: 2px;
+  height: 22px;
+  margin-left: 34px;
+  background: var(--zurich-blue);
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.metric {
+  min-height: 186px;
+  padding: 24px;
+  background: white;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.metric strong {
+  display: block;
+  font-size: clamp(58px, 6vw, 92px);
+  line-height: 0.9;
+  color: var(--zurich-blue-dark);
+}
+
+.metric span {
+  display: block;
+  margin-top: 18px;
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+.metric.pursue {
+  border-top: 8px solid var(--green);
+}
+
+.metric.watch {
+  border-top: 8px solid var(--amber);
+}
+
+.metric.reject {
+  border-top: 8px solid var(--red);
+}
+
+.metric.proof {
+  border-top: 8px solid var(--zurich-blue);
+}
+
+.account-row,
+.future-row {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  align-self: end;
+}
+
+.account-card,
+.future-row div {
+  min-height: 132px;
+  padding: 20px;
+  background: rgba(246, 248, 251, 0.92);
+  border: 1px solid var(--line);
+}
+
+.account-card span,
+.future-row span {
+  color: var(--zurich-blue);
+}
+
+.account-card strong,
+.future-row strong {
+  display: block;
+  margin-top: 12px;
+  color: var(--zurich-blue-dark);
+  font-size: 24px;
+  line-height: 1.08;
+}
+
+.account-card small,
+.future-row small {
+  display: block;
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.28;
+}
+
+.overlay-panel {
+  padding: 28px;
+  background:
+    linear-gradient(135deg, rgba(0, 51, 153, 0.98), rgba(2, 41, 106, 0.96)),
+    var(--zurich-blue);
+  color: white;
+  box-shadow: var(--shadow);
+}
+
+.overlay-panel p {
+  margin: 0 0 24px;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.overlay-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  background: rgba(255, 255, 255, 0.32);
+}
+
+.overlay-grid span {
+  min-height: 104px;
+  display: flex;
+  align-items: flex-end;
+  padding: 17px;
+  background: rgba(255, 255, 255, 0.11);
+  color: white;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.08;
+}
+
+.future-row div:nth-child(3) {
+  border-color: rgba(255, 82, 82, 0.5);
+  background: linear-gradient(180deg, #fff, #fff6f6);
+}
+
+.takeaway {
+  min-height: 56px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 18px;
+}
+
+.takeaway strong {
+  color: var(--zurich-blue);
+  white-space: nowrap;
+}
+
+.takeaway span {
+  text-align: right;
+}
+
+@media (max-width: 920px) {
+  .slide {
+    min-height: auto;
+    padding: 28px 22px;
+  }
+
+  .slide-grid,
+  .results-layout,
+  .vision-layout,
+  .account-row,
+  .future-row {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 56px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .lead,
+  .lead.compact {
+    font-size: 20px;
+  }
+
+  .topline,
+  .takeaway {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .takeaway span {
+    text-align: left;
+  }
+}
+
+@page {
+  size: 16in 9in;
+  margin: 0;
+}
+
+@media print {
+  html,
+  body {
+    width: 16in;
+    height: 9in;
+    background: white;
+  }
+
+  .slide {
+    width: 16in;
+    height: 9in;
+    min-height: 9in;
+    padding: 0.46in 0.62in 0.36in;
+    gap: 0.24in;
+    break-after: page;
+  }
+
+  .topline,
+  .takeaway {
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .slide-grid,
+  .results-layout,
+  .vision-layout {
+    grid-template-columns: minmax(0, 1.02fr) minmax(420px, 0.98fr);
+    gap: 0.48in;
+  }
+
+  .account-row,
+  .future-row {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  h1 {
+    font-size: 0.78in;
+  }
+
+  h2 {
+    font-size: 0.58in;
+  }
+
+  .lead {
+    font-size: 0.23in;
+  }
+
+  .lead.compact {
+    font-size: 0.2in;
+  }
+
+  .stage {
+    min-height: 1.12in;
+    padding: 0.2in 0.22in;
+  }
+
+  .stage strong {
+    font-size: 0.27in;
+  }
+
+  .stage small {
+    font-size: 0.15in;
+  }
+
+  .connector {
+    height: 0.12in;
+  }
+
+  .metric {
+    min-height: 1.48in;
+    padding: 0.19in;
+  }
+
+  .metric strong {
+    font-size: 0.68in;
+  }
+
+  .metric span {
+    font-size: 0.15in;
+  }
+
+  .account-card,
+  .future-row div {
+    min-height: 0.92in;
+    padding: 0.16in;
+  }
+
+  .account-card strong,
+  .future-row strong {
+    font-size: 0.2in;
+  }
+
+  .account-card small,
+  .future-row small {
+    font-size: 0.13in;
+  }
+
+  .overlay-panel {
+    padding: 0.22in;
+  }
+
+  .overlay-grid span {
+    min-height: 0.76in;
+    font-size: 0.18in;
+  }
+
+  .takeaway span {
+    text-align: right;
+  }
+}

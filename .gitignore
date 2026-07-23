@@ -1,0 +1,19 @@
+node_modules/
+dist/
+.env
+.env.*
+*.mp4
+*.zip
+*.db
+*.db-shm
+*.db-wal
+tmp/
+coverage/
+.DS_Store
+
+# Keep provider material and generated research data outside the public repo.
+resources/
+.smithers/outputs/
+.smithers/data/challenge3-fdic-seeds.json
+deliverables/challenge3-target-customer-scouting/prototype-evidence/latest.json
+deliverables/challenge3-target-customer-scouting/prototype-evidence/latest.md

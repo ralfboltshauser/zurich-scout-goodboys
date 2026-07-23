@@ -1,0 +1,5 @@
+PursuitLens icon concept generation target:
+- 10 raster bitmap concepts
+- minimal, modern, clean startup/app icon direction
+- radar/lens/target-scouting/account qualification metaphor
+- no shield, no Zurich logo, no Z, no text, no mascot
